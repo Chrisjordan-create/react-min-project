@@ -6,7 +6,7 @@ import Tshirt2 from './assets/shirt/shirt2.png';
 import Tshirt3 from './assets/shirt/shirt3.png';
 import Tshirt4 from './assets/shirt/shirt4.png';
 import Img1 from './assets/women/women.png';
-import Img2 from './assets/women/Imag13.jpg';
+import Img2 from './assets/women/Img13.jpg';
 import Img4 from './assets/women/Img14.jpg';
 import Img5 from './assets/women/man1.jpg';
 import Img6 from './assets/women/man2.jpg';
