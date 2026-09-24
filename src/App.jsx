@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar/Navbar.jsx"
-import Hero from "./components/Hero/HeroTemp.jsx"
+import Hero from "./components/Hero/HeroStar.jsx"
 import TopProducts from "./components/TopProducts/TopProducts.jsx"
 import Products from "./components/Products/Products.jsx"
 import Banner from "./components/Banner/Banner.jsx"
