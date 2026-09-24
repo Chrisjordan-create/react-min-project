@@ -10,7 +10,8 @@ const Navbar = ({ handlePopup }) => {
     <div>
       <div className='shadow-md'>
         <div className='bg-primary/40 py-2 lg:-4 bg-gray-900 text-white shadow-xl duration-200 relative z-4'>
-          <div className='w-full flex flex-col py-5 pl-6 pr-10 lg:container lg:flex justify-between lg:items-center lg:flex-row'>
+          <div className='w-full flex flex-col py-5 pl-6 pr-10 lg:container lg:flex justify-between lg:items-center
+           lg:flex-row'>
             <h1 className='mb-5'>
               <a href='' onClick={() => {toast.success('Welcome Home!')}}
                 className='font-bold lg:text-4xl sm:text-2xl flex gap-x-2 
@@ -31,14 +32,14 @@ const Navbar = ({ handlePopup }) => {
                 <span className='hidden group-hover:block transition-all duration-200'>
                   Order
                 </span>
-                <FaShoppingCart className='text-xl lg:text-3xl cursor-pointer text-orange drop-shadow-sm' />
+                <FaShoppingCart className='text-xl lg:text-3xl cursor-pointer text-black drop-shadow-sm' />
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div className='flex justify-center bg-orange text-black'>
-        <ul className='flex gap-4 lg:gap-40 items-center shadow-xl px-6'>
+      <div className='flex justify-center bg-orange-500 text-white'>
+        <ul className='flex gap-7 lg:gap-40 items-center shadow-xl px-6'>
         {
           Menu.map((data)=>(
             <li key={data.id} className='px-2 hover:text-primary font-semibold lg:font-bold lg:text-2xl'>

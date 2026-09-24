@@ -1,4 +1,4 @@
-import Banner from "../../assets/website/orange-pattern.jpg";
+import Banner from "../../assets/website/footer-pattern.jpg";
 
 const BannerImage = {
   backgroundImage: 'url(${Banner})',

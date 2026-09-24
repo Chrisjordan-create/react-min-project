@@ -16,7 +16,7 @@ const Products = ()=>{
               {
                 ProductsData.map((data)=>(
                   <div key={data.id} className="hover:scale-125 ease-in-out duration-300">
-                    <img src={data.img} alt="Images" className="h-[250px] w-[250px] object-cover rounded-md"/>
+                    <img src={data.img} alt="Images" className="h-[350px] w-[250px] object-cover rounded-md"/>
                     <div>
                       <h3 className="font-semibold">
                         {data.title}

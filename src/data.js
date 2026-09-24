@@ -3,11 +3,10 @@ import Image2 from './assets/hero/shopping.png';
 import Img3 from './assets/hero/women.png';
 import Tshirt1 from './assets/shirt/shirt.png';
 import Tshirt2 from './assets/shirt/shirt2.png';
-//import Tshirt3 from './assets/shirt/shirt3.png';
-//import Tshirt4 from './assets/shirt/shirt4.png';
+import Tshirt3 from './assets/shirt/shirt3.png';
+import Tshirt4 from './assets/shirt/shirt4.png';
 import Img1 from './assets/women/women.png';
 import Img2 from './assets/women/Imag13.jpg';
-//import Img3 from './assets/women/Img12.png';
 import Img4 from './assets/women/Img14.jpg';
 import Img5 from './assets/women/man1.jpg';
 import Img6 from './assets/women/man2.jpg';
@@ -35,24 +34,20 @@ export const Menu = [
 export const TopProductsList = [
   {
       id: 1,
-      name: 'Products',
-      link: '/#allwears'
+      img:Tshirt3,
   },
    {
      id: 2,
-     name: 'Best Selling',
-     link: '/#bestselling'
+     img:Tshirt4,
    },
     {
-      id: 3,
-      name: 'Top Rated',
-      link: '/#services'
-    },
-    {
-      id: 4,
-      name: 'Testimonials',
-      link: '/#testimonials'
-    },
+     id:3,
+     img:Tshirt1,
+  },
+   {
+     id:4,
+     img:Tshirt2,
+  }
 ]
 export const ProductsData = [
   {
@@ -133,18 +128,6 @@ export const ImageLists = [
   title:"Upto 50% off discounts on all Mens' wears, I know you won't want to miss this!",
   description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
  },
-  {
-   id:3,
-   img:Tshirt1,
-   title: "Womens' Shirt",
-   description: "Lorem",
-  },
-  {
-   id:4,
-   img:Tshirt2,
-   title: "Dual' Shirt",
-   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-  }
 ]
 export const TestimonialData = [
   {
